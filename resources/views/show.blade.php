@@ -21,7 +21,7 @@
                               </div>
                               @endforeach
                               <div class="btn_main mb-4" style="margin-left:50%;">
-                                 <a class="btn btn-success btn-social mx-2"  href="https://api.whatsapp.com/send?phone=237695162509"><i class="fa fa-whatsapp"></i></a>
+                                 <a class="btn btn-success btn-social mx-2"  href="https://api.whatsapp.com/send?phone=237690815505"><i class="fa fa-whatsapp"></i></a>
                                  <button type="button" class="btn btn-success"><a class="text-white" href="{{ route('home') }}">Home</a></button>
                               </div>
                            </div>

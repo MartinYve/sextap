@@ -139,7 +139,7 @@
                                     ?>
                                     <div class="tshirt_img"><img src="{{asset('storage/'.$img->image)}}"></div>
                                     <div class="btn_main">
-                                       <a class="btn btn-success btn-social mx-2"  href="https://api.whatsapp.com/send?phone=237695162509&text=Salut%20il%20me%20faut%20{{$produit->name}}"><i class="fa fa-whatsapp"></i></a>
+                                       <a class="btn btn-success btn-social mx-2"  href="https://api.whatsapp.com/send?phone=237690815505&text=Salut%20il%20me%20faut%20{{$produit->name}}"><i class="fa fa-whatsapp"></i></a>
                                        <button type="button" class="btn btn-success"><a class="text-white" href="{{ route('products.show', $produit) }}">Voir plus d'images</a></button>
                                     </div>
                                  </div>
