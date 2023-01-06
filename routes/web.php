@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomAuthController;
 use App\Http\Controllers\LogoutController;
 use App\Models\Product;
+use GuzzleHttp\Middleware;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,4 +26,4 @@ Route::get('/', function () {
 Route::get('login', [CustomAuthController::class, 'index'])->name('login');
 Route::get('logout', [LogoutController::class, 'logout'])->name('logout');
 Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom');
-Route::resource('products', ProductController::class);
+Route::resource('products', ProductController::class)->Middleware('auth');
